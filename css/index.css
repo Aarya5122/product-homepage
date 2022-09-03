@@ -1,0 +1,170 @@
+:root{
+    --theme: #fe5e35;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-justify-space-between{
+    justify-content: space-between;
+}
+
+.flex-justify-space-around{
+    justify-content: space-around;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-align-start{
+    align-items: flex-start;
+}
+
+.flex-justify-start{
+    justify-content: flex-start;
+}
+
+.navbar{
+    padding: 4vh 1vw;
+    font-size: 24px;
+}
+
+.logo{
+    width: 18vw;
+}
+
+.nav-items{
+    width: 40vw;
+}
+
+.active-item{
+    font-weight: 900;
+    color: var(--theme);
+}
+
+.actions{
+    width: 20vw;
+}
+
+.action{
+    width: 20vw;
+}
+
+.intro-section{
+    width: 88vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.left-section{
+    width: 48vw;
+    height: 80vh;
+}
+
+.left-section>h3{
+    font-size: 36px;
+}
+
+.left-section>h1{
+    font-family: "Fredoka One", sans-serif;
+    font-size: 70px;
+}
+
+.sub-headlines{
+    height: 24vh;
+    margin-left: 6vw;
+}
+
+.sub-headline{
+    width: 24vw;
+    font-size: 24px;
+}
+
+.sub-headline>img{
+    background-color: var(--theme);
+    padding: 1vh;
+    border-radius: 50%;
+    margin-right: 2vw;
+}
+
+.text{
+    color: #838383;
+    font-size: 14px;
+    height: 16vh;
+    padding: 3vh 0;
+}
+
+.action-btn{
+    padding: 1.8vh 3vw;
+    border-radius: 32px;
+    font-size: 18px;
+    border: none;
+    background-color: var(--theme);
+    color: #ffffff;
+}
+
+.action-btn:nth-child(2){
+    margin-left: 2vw;
+}
+
+.right-section{
+    width: 32vw;
+    height: 80vh;
+}
+
+.offer{
+    position: absolute;
+    top: 52vh;
+    right: 32.5vw;
+}
+
+.discount-content{
+    position: absolute;
+    top: 57vh;
+    right: 34vw;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.discount-content h4,h1 {
+    font-family: "Fredoka One", sans-serif;
+}
+
+.discount-content h4{
+    font-size: 14px;
+}
+
+.dots{
+    width: 14vw;
+}
+
+.dot{
+    width: 1.8vw;
+    height: 3.5vh;
+    border-radius: 50%;
+}
+
+.yellow-dot{
+    background-color: #fbd104;
+}
+
+.tomato-dot{
+    background-color: var(--theme);
+}
+
+.black-dot{
+    background-color: #000000;
+}
